@@ -98,7 +98,3 @@ Each DFA is defined in the following structure:
 - Make sure both DFAs use the exact same alphabet before attempting product construction.
 
 ---
-
-## 📜 License
-
-This project is intended for educational use and is distributed under the MIT License.
