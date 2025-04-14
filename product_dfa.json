@@ -1,0 +1,124 @@
+{
+  "states": [
+    [
+      "q0",
+      "p1"
+    ],
+    [
+      "q1",
+      "p0"
+    ],
+    [
+      "q1",
+      "p1"
+    ],
+    [
+      "q0",
+      "p0"
+    ]
+  ],
+  "alphabet": [
+    "b",
+    "a"
+  ],
+  "transitions": [
+    {
+      "from_state": [
+        "q0",
+        "p0"
+      ],
+      "symbol": "b",
+      "to_state": [
+        "q0",
+        "p1"
+      ]
+    },
+    {
+      "from_state": [
+        "q0",
+        "p0"
+      ],
+      "symbol": "a",
+      "to_state": [
+        "q1",
+        "p0"
+      ]
+    },
+    {
+      "from_state": [
+        "q0",
+        "p1"
+      ],
+      "symbol": "b",
+      "to_state": [
+        "q0",
+        "p0"
+      ]
+    },
+    {
+      "from_state": [
+        "q0",
+        "p1"
+      ],
+      "symbol": "a",
+      "to_state": [
+        "q1",
+        "p1"
+      ]
+    },
+    {
+      "from_state": [
+        "q1",
+        "p0"
+      ],
+      "symbol": "b",
+      "to_state": [
+        "q0",
+        "p1"
+      ]
+    },
+    {
+      "from_state": [
+        "q1",
+        "p0"
+      ],
+      "symbol": "a",
+      "to_state": [
+        "q1",
+        "p0"
+      ]
+    },
+    {
+      "from_state": [
+        "q1",
+        "p1"
+      ],
+      "symbol": "b",
+      "to_state": [
+        "q0",
+        "p0"
+      ]
+    },
+    {
+      "from_state": [
+        "q1",
+        "p1"
+      ],
+      "symbol": "a",
+      "to_state": [
+        "q1",
+        "p1"
+      ]
+    }
+  ],
+  "start_state": [
+    "q0",
+    "p0"
+  ],
+  "accept_states": [
+    [
+      "q1",
+      "p0"
+    ]
+  ]
+}
