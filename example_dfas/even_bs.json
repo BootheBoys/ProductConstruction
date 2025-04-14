@@ -1,0 +1,36 @@
+{
+  "states": [
+    "p0",
+    "p1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": [
+    {
+      "from_state": "p0",
+      "symbol": "a",
+      "to_state": "p0"
+    },
+    {
+      "from_state": "p0",
+      "symbol": "b",
+      "to_state": "p1"
+    },
+    {
+      "from_state": "p1",
+      "symbol": "a",
+      "to_state": "p1"
+    },
+    {
+      "from_state": "p1",
+      "symbol": "b",
+      "to_state": "p0"
+    }
+  ],
+  "start_state": "p0",
+  "accept_states": [
+    "p0"
+  ]
+}

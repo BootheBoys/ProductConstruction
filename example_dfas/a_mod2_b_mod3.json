@@ -1,0 +1,80 @@
+{
+  "states": [
+    "q00",
+    "q01",
+    "q02",
+    "q10",
+    "q11",
+    "q12"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": [
+    {
+      "from_state": "q00",
+      "symbol": "a",
+      "to_state": "q10"
+    },
+    {
+      "from_state": "q00",
+      "symbol": "b",
+      "to_state": "q01"
+    },
+    {
+      "from_state": "q01",
+      "symbol": "a",
+      "to_state": "q11"
+    },
+    {
+      "from_state": "q01",
+      "symbol": "b",
+      "to_state": "q02"
+    },
+    {
+      "from_state": "q02",
+      "symbol": "a",
+      "to_state": "q12"
+    },
+    {
+      "from_state": "q02",
+      "symbol": "b",
+      "to_state": "q00"
+    },
+    {
+      "from_state": "q10",
+      "symbol": "a",
+      "to_state": "q00"
+    },
+    {
+      "from_state": "q10",
+      "symbol": "b",
+      "to_state": "q11"
+    },
+    {
+      "from_state": "q11",
+      "symbol": "a",
+      "to_state": "q01"
+    },
+    {
+      "from_state": "q11",
+      "symbol": "b",
+      "to_state": "q12"
+    },
+    {
+      "from_state": "q12",
+      "symbol": "a",
+      "to_state": "q02"
+    },
+    {
+      "from_state": "q12",
+      "symbol": "b",
+      "to_state": "q10"
+    }
+  ],
+  "start_state": "q00",
+  "accept_states": [
+    "q00"
+  ]
+}
