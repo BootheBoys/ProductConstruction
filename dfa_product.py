@@ -151,7 +151,7 @@ def main():
     # Convert product DFA to dictionary for JSON serialization
     product_data = product_dfa.to_dict()
 
-    # Save product DFA to JSON file
+    # Save product DFA to JSON file 
     try:
         with open(output_file, 'w') as f:
             json.dump(product_data, f, indent=2)
@@ -160,7 +160,7 @@ def main():
         print(f"Error: Failed to write output file - {e}")
         sys.exit(1)
 
-    # Print summary
+    # Print summary of inputs and output file
     print(f"\nDFA 1 ({dfa1_file}):")
     print(f"  States: {len(dfa1.states)}")
     print(f"  Alphabet: {dfa1.alphabet}")
